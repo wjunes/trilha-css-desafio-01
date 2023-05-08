@@ -1,0 +1,105 @@
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #323336;
+    width: 1440px;
+}
+
+#course-content{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center; 
+   color: #fff;
+   width: 800px;
+   height: 330px;
+   margin-top: 80px;
+}
+
+#course-content h2{
+    color: #1f86c4 ;
+    font-weight: 900;
+    font-size:2rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#course-content p{
+    color: #FFF ;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.module{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #252525;
+    width: 540px;
+    height: 50px;
+    margin: 24px;
+    border: solid 3px rgb(46, 127, 163);
+    box-shadow: inset -2px 6px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 60px;
+    color: #FFF ;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.module span{
+    color: #1f86c4 ;  
+}
+
+#transform-world{
+    width: 1439px;
+    height: 320px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-image: url(../assets/images/woman-code.png);
+    background-size: cover;
+    background-position-y: center;
+    margin-top: 3rem;
+}
+
+#transform-world p{
+   color: #FFF;
+   font-size: 40px;
+   font-weight: 900; 
+   margin-left: 200px;
+   text-transform: lowercase;
+   text-shadow: 3px 2px 0px #33A8DB;
+}
+
+
+#professional-challenges{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#professional-challenges h2{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #1f86c4 ;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 1rem;
+}
+
+#professional-challenges p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF; 
+}
