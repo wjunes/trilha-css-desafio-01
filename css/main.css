@@ -51,6 +51,7 @@ main{
     color: #FFF ;
     font-weight: 700;
     font-size: 14px;
+    cursor: pointer;
 }
 
 .module span{
